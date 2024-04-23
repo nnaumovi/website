@@ -1,13 +1,13 @@
 body {
-    background-color: lightblue;
+    background-color: black;
 }
   
 h1 {
-    color: navy;
+    color: lightgrey;
     margin-left: 20px;
 }
 
 p {
-    color: green;
+    color: white;
     margin-left: 30px;
 }
