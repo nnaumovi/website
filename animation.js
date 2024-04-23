@@ -1,5 +1,5 @@
 const gl = canvas.getContext('webgl');
-const program = createProgram(gl, vertexShaderSource, fragmentShaderSource);
+const program = createProgram(gl, 'vertexShader.glsl', 'fragmentShader.glsl');
 
 const positionAttributeLocation = gl.getAttribLocation(program, 'aPosition');
 const resolutionUniformLocation = gl.getUniformLocation(program, 'uResolution');
